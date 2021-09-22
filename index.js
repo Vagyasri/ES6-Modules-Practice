@@ -1,1 +1,1 @@
-
+import Bio from './app.js';
