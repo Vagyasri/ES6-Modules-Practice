@@ -1,8 +1,9 @@
+/* eslint-disable import/extensions */
 /* eslint-disable no-console */
 // * Import class
 // import Bio from './app.js';
 
-import Bio from "./app"
+// import Bio from "./app"
 
 // const user1 = new Bio('Lucky', 28);
 // console.log(user1);
@@ -12,13 +13,18 @@ import Bio from "./app"
 // const user1 = new B('Lucky', 28);
 // console.log(user1);
 
-// Import class along with functions
-import Bio, {displayName, displayAge} from './app.js'
+// * Import class along with functions
+// import Bio, { displayName, displayAge } from './app.js';
+
+// const user1 = new Bio('Lucky', 28);
+// console.log(user1);
+// displayName(user1);
+// displayAge(user1);
 
 // *You can change the function name using 'as'
-// import Bio, {displayName as displayUserName, displayAge as displayUserAge} from './app.js'
+import Bio, { displayName as displayUserName, displayAge as displayUserAge } from './app.js';
 
-
-
-
-
+const user1 = new Bio('Lucky', 28);
+console.log(user1);
+displayUserName(user1);
+displayUserAge(user1);
