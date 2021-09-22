@@ -12,6 +12,13 @@ import Bio from "./app"
 // const user1 = new B('Lucky', 28);
 // console.log(user1);
 
-// Import class with functions
+// Import class along with functions
 import Bio, {displayName, displayAge} from './app.js'
+
+// *You can change the function name using 'as'
+// import Bio, {displayName as displayUserName, displayAge as displayUserAge} from './app.js'
+
+
+
+
 
